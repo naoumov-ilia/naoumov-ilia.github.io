@@ -1,0 +1,33 @@
+username.github.io/
+│
+├── _config.yml
+├── robots.txt
+├── index.md
+│
+├── _layouts/
+│   ├── default.html
+│   ├── page.html
+│   └── article.html
+│
+├── assets/
+│   ├── css/style.css
+│   ├── images/
+│   └── files/
+│
+├── ru/
+│   ├── index.md
+│   ├── about.md
+│   ├── publications.md
+│   ├── diagrams.md
+│   ├── faq.md
+│   ├── contact.md
+│   └── articles/
+│
+└── en/
+    ├── index.md
+    ├── about.md
+    ├── publications.md
+    ├── diagrams.md
+    ├── faq.md
+    ├── contact.md
+    └── articles/
