@@ -1,0 +1,9 @@
+title: "Research Project"
+description: "Bilingual research website with articles, diagrams, and PDF materials"
+lang: ru
+
+markdown: kramdown
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
