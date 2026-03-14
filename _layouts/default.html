@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang }}">
+<head>
+
+<meta charset="utf-8">
+
+<title>{{ page.title }} | {{ site.title }}</title>
+
+<meta name="description"
+content="{{ page.description | default: site.description }}">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+
+<link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1><a href="/">Research Project</a></h1>
+
+<nav>
+
+<a href="/ru/">RU</a>
+<a href="/en/">EN</a>
+
+</nav>
+
+</header>
+
+<main>
+
+{{ content }}
+
+</main>
+
+<footer>
+
+<p>© 2026 Автор проекта</p>
+
+</footer>
+
+</body>
+</html>
