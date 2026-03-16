@@ -1,13 +1,18 @@
 ---
-layout: page
-title: "Research Project"
+layout: default
+title: Research Project
+lang: ru
+description: Bilingual research website
 permalink: /
 ---
 
-Добро пожаловать на сайт проекта.
+<meta http-equiv="refresh" content="0; url={{ '/ru/' | relative_url }}" />
 
-Welcome to the research website.
-
-[Русская версия](/ru/)
-
-[English version](/en/)
+<section class="section">
+  <div class="container">
+    <div class="page-card">
+      <h1>Перенаправление...</h1>
+      <p><a href="{{ '/ru/' | relative_url }}">Перейти на сайт</a></p>
+    </div>
+  </div>
+</section>
