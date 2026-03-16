@@ -1,20 +1,20 @@
 ---
 layout: page
-title: "FAQ"
+title: FAQ
 lang: en
+ref: faq
+description: Answers to frequently asked questions.
 permalink: /en/faq/
 ---
 
-# Frequently Asked Questions
+## Why was this site created?
 
-## What is this website about?
+To publish and organize materials related to the project topic.
 
-This website presents research ideas, models, and explanatory materials.
+## What materials can be added?
 
-## Can I discuss the ideas?
+Texts, images, diagrams, infographics, PDF files, and links to additional resources.
 
-Yes. You can send feedback using the contact page.
+## Can the site be expanded further?
 
-## Where can I download the articles?
-
-Each publication page contains a PDF download link.
+Yes, the current structure is already suitable for adding new articles and sections.
