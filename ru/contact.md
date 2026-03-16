@@ -1,20 +1,20 @@
 ---
 layout: page
-title: "Контакты"
+title: Контакты
 lang: ru
+ref: contact
+description: Контактная информация и обратная связь.
 permalink: /ru/contact/
 ---
 
-<form action="https://formspree.io/f/ВАШ_ID" method="POST">
+Для связи по вопросам проекта можно указать:
 
-<label>Email</label>
+- email
+- GitHub
+- Telegram
+- форму обратной связи
+- приглашение к обсуждению материалов
 
-<input type="email" name="email">
+**Email:** your-email@example.com
 
-<label>Сообщение</label>
-
-<textarea name="message"></textarea>
-
-<button type="submit">Отправить</button>
-
-</form>
+**GitHub:** [github.com/your-name](https://github.com/your-name)
