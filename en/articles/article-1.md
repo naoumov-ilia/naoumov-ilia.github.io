@@ -1,36 +1,27 @@
 ---
 layout: article
-title: "New Interaction Model"
+title: First article
 lang: en
-description: "Description of a new theoretical interaction model."
-permalink: /en/articles/model-interaction/
+description: Example article in the updated website design.
+permalink: /en/articles/article-1/
 ---
 
-[Русская версия](/ru/articles/model-interaction/)
+## Introduction
 
-## Abstract
+This is an example article page.
 
-This section briefly introduces the research and explains the main concept of the model.
+## Main section
 
-## Diagram
+You can place here:
 
-![Model diagram](/assets/images/model.png)
+- main text
+- images
+- PDF links
+- diagrams and tables
+- conclusions and explanations
 
-## Core Idea
-
-This section describes the theoretical assumptions and the core mechanism of the model.
-
-## Discussion
-
-Possible aspects to explain here:
-
-- the initial problem
-- the theoretical structure
-- the interaction mechanism
-- arguments supporting the hypothesis
+> Important fragments can be highlighted using quote blocks.
 
 ## Conclusion
 
-Summary of the research and possible directions for further work.
-
-[Download PDF](/assets/files/article1.pdf)
+The article is styled automatically through the `article` layout.
