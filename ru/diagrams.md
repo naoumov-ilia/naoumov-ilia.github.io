@@ -1,10 +1,19 @@
 ---
 layout: page
-title: "Схемы"
+title: Схемы
 lang: ru
+ref: diagrams
+description: Схемы, диаграммы и визуальные пояснения.
 permalink: /ru/diagrams/
 ---
 
-![Схема модели](/assets/images/model.png)
+В этом разделе можно размещать:
 
-Описание схемы.
+- изображения из `assets/images/`
+- поясняющие схемы
+- инфографику
+- иллюстрации к статьям
+
+Пример вставки изображения:
+
+![Пример схемы]({{ '/assets/images/example-diagram.jpg' | relative_url }})
