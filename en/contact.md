@@ -1,18 +1,20 @@
 ---
 layout: page
-title: "Contact"
+title: Contact
 lang: en
+ref: contact
+description: Contact information and feedback.
 permalink: /en/contact/
 ---
 
-# Contact
+For project-related contact, you can provide:
 
-You can send feedback or questions regarding the research presented on this website.
+- email
+- GitHub
+- Telegram
+- a feedback form
+- an invitation for discussion
 
-## Email
+**Email:** your-email@example.com
 
-yourname@example.com
-
-## Feedback
-
-You can also add a contact form here later if needed.
+**GitHub:** [github.com/your-name](https://github.com/your-name)
