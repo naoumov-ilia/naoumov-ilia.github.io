@@ -1,9 +1,6 @@
-title: "Research Project"
-description: "Bilingual research website with articles, diagrams, and PDF materials"
+title: Research Project
+description: Bilingual research website on GitHub Pages
 lang: ru
-
 markdown: kramdown
-
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
+theme: null
+plugins: []
