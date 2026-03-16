@@ -1,28 +1,21 @@
 ---
 layout: page
-title: "About the Project"
+title: About
 lang: en
+ref: about
+description: General information about the project, its goals, and its content.
 permalink: /en/about/
 ---
 
-This website presents research materials, theoretical models, and explanatory diagrams.
+This project is designed to publish materials on the research topic in a clear and independent format.
 
-## Goal of the project
+The website may include:
 
-The goal of this project is to present ideas and models in a clear and accessible form.
+- articles
+- diagrams
+- infographics
+- PDF materials
+- answers to questions
+- contact information
 
-## Author
-
-You can briefly describe the author here:
-
-- name
-- field of interest
-- research topics
-
-## Website content
-
-The website includes:
-
-- research articles
-- diagrams and illustrations
-- downloadable PDF materials
+This format makes it possible to build a complete body of materials without depending on external publishing platforms.
