@@ -1,14 +1,19 @@
 ---
 layout: page
-title: "Diagrams"
+title: Diagrams
 lang: en
+ref: diagrams
+description: Diagrams, charts, and visual explanatory materials.
 permalink: /en/diagrams/
 ---
 
-# Research Diagrams
+This section can contain:
 
-## Model diagram
+- images from `assets/images/`
+- explanatory diagrams
+- infographics
+- article illustrations
 
-![Model diagram](/assets/images/model.png)
+Example image embedding:
 
-Description of the diagram and explanation of the structure of the model.
+![Example diagram]({{ '/assets/images/example-diagram.jpg' | relative_url }})
