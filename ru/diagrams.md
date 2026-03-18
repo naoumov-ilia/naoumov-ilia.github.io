@@ -14,6 +14,18 @@ permalink: /ru/diagrams/
 - инфографику
 - иллюстрации к статьям
 
-Пример вставки изображения:
+---
 
-![Пример схемы]({{ '/assets/images/example-diagram.jpg' | relative_url }})
+## График 1 {#graph-1}
+
+![Волновое движение]({{ '/assets/images/graph-1.png' | relative_url }})
+
+Импульсная волна и коррекция.
+
+---
+
+## График 2 {#graph-2}
+
+![Множество окончаний коррекции]({{ '/assets/images/graph-2.png' | relative_url }})
+
+Возможные точки окончания коррекции.
