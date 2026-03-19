@@ -12,16 +12,10 @@ permalink: /ru/diagrams/
 
 ## График 1 {#graph-1}
 
-![Волновое движение]({{ '/assets/images/graph-1.png' | relative_url }})
+![Волновое движение]({{ '/assets/images/graph-1.png' | relative_url }}
 
 15 минутный график цены акций Сбербанка, бар  о1: 03.03.2025, 12:30  
 Источник: информационная система QUIK,  ММВБ
-
-
-
-
-
-
 
 
 ---
