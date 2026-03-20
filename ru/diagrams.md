@@ -12,7 +12,7 @@ permalink: /ru/diagrams/
 
 ## График 1 {#graph-1}
 
-![Волновое движение]({{ '/assets/images/graph-1.png' | relative_url }}
+![Волновое движение](/assets/images/graph-1.png)
 
 
 
