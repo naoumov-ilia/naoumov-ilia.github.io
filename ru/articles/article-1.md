@@ -47,7 +47,7 @@ permalink: /ru/articles/article-1/
  включающее в себя все значения в т.ч.внутри бара, после каждого из которых цены  не опускаются
  до данного значения.
  
-График: [(рис.2)]({{ '/ru/diagrams/graph-1/' | relative_url }})
+График: [(рис.2)]({{ '/ru/diagrams/graph-2/' | relative_url }})
 
 См. иллюстрацию: [график с вариантами f1]({{ '/ru/diagrams/#graph-2' | relative_url }})
 
