@@ -6,7 +6,6 @@ ref: graph-3
 permalink: /ru/diagrams/graph-3/
 ---
 
-## 
 
 <img src="/assets/images/graph-3.png" alt="График 3">
 
