@@ -20,4 +20,9 @@ permalink: /ru/diagrams/
 <p>Варианты завершения коррекции</p>
 </div>
 
+<div class="list-card">
+<h3><a href="/ru/diagrams/graph-3/">График 3 — Множество окончаний</a></h3>
+<p>Варианты завершения коррекции</p>
+</div>
+
 </div>
