@@ -19,4 +19,3 @@ permalink: /ru/diagrams/graph-3/
 ---
 
 <a class="btn btn-secondary" href="/ru/diagrams/">← Назад к схемам</a>
-
