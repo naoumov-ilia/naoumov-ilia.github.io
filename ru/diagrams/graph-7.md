@@ -1,6 +1,6 @@
 ---
 layout: page
-title: График 7 — 157 минутный график цены валютной пары CNYRUB_TOM,бар  о1: 28.12.2024, 10:30
+title: "График 7 — 157 минутный график цены валютной пары CNYRUB_TOM, бар 01: 28.12.2024, 10:30"
 lang: ru
 ref: graph-7
 permalink: /ru/diagrams/graph-7/
