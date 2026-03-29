@@ -14,7 +14,7 @@ permalink: /ru/articles/article-1/
 
 Пусть цена возрастает от минимального значения в точке **o1** до точки **v1**, далее уменьшается до точки **f1**, после которой рост продолжается.
 
-График: [(рис.1)]({{ '/ru/diagrams/graph-1/' | relative_url }})
+График: <a href="{{ '/ru/diagrams/graph-1/' | relative_url }}" target="_blank" rel="noopener">(рис. 1)</a>
 
 ### Определения
 
