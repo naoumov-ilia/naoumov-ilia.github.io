@@ -3,27 +3,118 @@ layout: page
 title: Схемы
 lang: ru
 ref: diagrams
+description: Графики и схемы.
 permalink: /ru/diagrams/
 ---
 
-## Графики
+<div class="diagram-grid">
 
-<div class="list-grid">
+  <article class="diagram-thumb-card">
+    <a class="diagram-thumb-link" href="{{ '/ru/diagrams/graph-1/' | relative_url }}" target="_blank" rel="noopener">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-1.png' | relative_url }}" alt="График 1 — Волновое движение">
+    </a>
+    <h3 class="diagram-thumb-title">
+      <a href="{{ '/ru/diagrams/graph-1/' | relative_url }}" target="_blank" rel="noopener">График 1 — Волновое движение</a>
+    </h3>
+  </article>
 
-<div class="list-card">
-<h3><a href="/ru/diagrams/graph-1/">График 1 — Волновое движение</a></h3>
-<p>Импульс и коррекция</p>
+  <article class="diagram-thumb-card">
+    <a class="diagram-thumb-link" href="{{ '/ru/diagrams/graph-2/' | relative_url }}" target="_blank" rel="noopener">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-2.png' | relative_url }}" alt="График 2 — Название графика">
+    </a>
+    <h3 class="diagram-thumb-title">
+      <a href="{{ '/ru/diagrams/graph-2/' | relative_url }}" target="_blank" rel="noopener">График 2 — Название графика</a>
+    </h3>
+  </article>
+
+  <article class="diagram-thumb-card">
+    <a class="diagram-thumb-link" href="{{ '/ru/diagrams/graph-3/' | relative_url }}" target="_blank" rel="noopener">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-3.png' | relative_url }}" alt="График 3 — Название графика">
+    </a>
+    <h3 class="diagram-thumb-title">
+      <a href="{{ '/ru/diagrams/graph-3/' | relative_url }}" target="_blank" rel="noopener">График 3 — Название графика</a>
+    </h3>
+  </article>
+
+  <article class="diagram-thumb-card">
+    <a class="diagram-thumb-link" href="{{ '/ru/diagrams/graph-4/' | relative_url }}" target="_blank" rel="noopener">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-4.png' | relative_url }}" alt="График 4 — Название графика">
+    </a>
+    <h3 class="diagram-thumb-title">
+      <a href="{{ '/ru/diagrams/graph-4/' | relative_url }}" target="_blank" rel="noopener">График 4 — Название графика</a>
+    </h3>
+  </article>
+
+  <article class="diagram-thumb-card">
+    <a class="diagram-thumb-link" href="{{ '/ru/diagrams/graph-5/' | relative_url }}" target="_blank" rel="noopener">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-5.png' | relative_url }}" alt="График 5 — Название графика">
+    </a>
+    <h3 class="diagram-thumb-title">
+      <a href="{{ '/ru/diagrams/graph-5/' | relative_url }}" target="_blank" rel="noopener">График 5 — Название графика</a>
+    </h3>
+  </article>
+
+  <article class="diagram-thumb-card">
+    <a class="diagram-thumb-link" href="{{ '/ru/diagrams/graph-6/' | relative_url }}" target="_blank" rel="noopener">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-6.png' | relative_url }}" alt="График 6 — Название графика">
+    </a>
+    <h3 class="diagram-thumb-title">
+      <a href="{{ '/ru/diagrams/graph-6/' | relative_url }}" target="_blank" rel="noopener">График 6 — Название графика</a>
+    </h3>
+  </article>
+
+  <article class="diagram-thumb-card">
+    <a class="diagram-thumb-link" href="{{ '/ru/diagrams/graph-7/' | relative_url }}" target="_blank" rel="noopener">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-7.png' | relative_url }}" alt="График 7 — Название графика">
+    </a>
+    <h3 class="diagram-thumb-title">
+      <a href="{{ '/ru/diagrams/graph-7/' | relative_url }}" target="_blank" rel="noopener">График 7 — Название графика</a>
+    </h3>
+  </article>
+
+  <article class="diagram-thumb-card">
+    <a class="diagram-thumb-link" href="{{ '/ru/diagrams/graph-8/' | relative_url }}" target="_blank" rel="noopener">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-8.png' | relative_url }}" alt="График 8 — Название графика">
+    </a>
+    <h3 class="diagram-thumb-title">
+      <a href="{{ '/ru/diagrams/graph-8/' | relative_url }}" target="_blank" rel="noopener">График 8 — Название графика</a>
+    </h3>
+  </article>
+
+  <article class="diagram-thumb-card">
+    <a class="diagram-thumb-link" href="{{ '/ru/diagrams/graph-9/' | relative_url }}" target="_blank" rel="noopener">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-9.png' | relative_url }}" alt="График 9 — Название графика">
+    </a>
+    <h3 class="diagram-thumb-title">
+      <a href="{{ '/ru/diagrams/graph-9/' | relative_url }}" target="_blank" rel="noopener">График 9 — Название графика</a>
+    </h3>
+  </article>
+
+  <article class="diagram-thumb-card">
+    <a class="diagram-thumb-link" href="{{ '/ru/diagrams/graph-10/' | relative_url }}" target="_blank" rel="noopener">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-10.png' | relative_url }}" alt="График 10 — Название графика">
+    </a>
+    <h3 class="diagram-thumb-title">
+      <a href="{{ '/ru/diagrams/graph-10/' | relative_url }}" target="_blank" rel="noopener">График 10 — Название графика</a>
+    </h3>
+  </article>
+
+  <article class="diagram-thumb-card">
+    <a class="diagram-thumb-link" href="{{ '/ru/diagrams/graph-11/' | relative_url }}" target="_blank" rel="noopener">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-11.png' | relative_url }}" alt="График 11 — Название графика">
+    </a>
+    <h3 class="diagram-thumb-title">
+      <a href="{{ '/ru/diagrams/graph-11/' | relative_url }}" target="_blank" rel="noopener">График 11 — Название графика</a>
+    </h3>
+  </article>
+
+  <article class="diagram-thumb-card">
+    <a class="diagram-thumb-link" href="{{ '/ru/diagrams/graph-12/' | relative_url }}" target="_blank" rel="noopener">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-12.png' | relative_url }}" alt="График 12 — Название графика">
+    </a>
+    <h3 class="diagram-thumb-title">
+      <a href="{{ '/ru/diagrams/graph-12/' | relative_url }}" target="_blank" rel="noopener">График 12 — Название графика</a>
+    </h3>
+  </article>
+
 </div>
-
-<div class="list-card">
-<h3><a href="/ru/diagrams/graph-2/">График 2 — Множество окончаний</a></h3>
-<p>Варианты завершения коррекции</p>
-</div>
-
-<div class="list-card">
-<h3><a href="/ru/diagrams/graph-3/">График 3 — Вторичное волновое движение</a></h3>
-<p>Варианты завершения коррекции</p>
-</div>
-
-</div>
-
