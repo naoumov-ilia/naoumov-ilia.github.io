@@ -357,3 +357,22 @@ code {
     height: auto;
   }
 }
+
+.diagram-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.diagram-thumb-card {
+  padding: 18px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.diagram-thumb-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
