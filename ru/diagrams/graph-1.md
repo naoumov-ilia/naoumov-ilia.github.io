@@ -32,3 +32,4 @@ permalink: /ru/diagrams/graph-1/
 <div class="single-diagram-actions">
   <a class="btn btn-secondary" href="{{ '/ru/diagrams/' | relative_url }}">← Назад к схемам</a>
 </div>
+
