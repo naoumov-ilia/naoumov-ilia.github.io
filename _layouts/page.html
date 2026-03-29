@@ -20,43 +20,149 @@ layout: default
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  function openLightbox(src, alt) {
+  function createLightbox() {
     let overlay = document.getElementById('lightbox-overlay');
+    if (overlay) return overlay;
 
-    if (!overlay) {
-      overlay = document.createElement('div');
-      overlay.id = 'lightbox-overlay';
-      overlay.className = 'lightbox-overlay';
-      overlay.innerHTML = `
-        <div class="lightbox-backdrop"></div>
-        <div class="lightbox-content">
-          <button class="lightbox-close" aria-label="Close">×</button>
-          <img class="lightbox-image" src="" alt="">
-          <div class="lightbox-caption"></div>
+    overlay = document.createElement('div');
+    overlay.id = 'lightbox-overlay';
+    overlay.className = 'lightbox-overlay';
+    overlay.innerHTML = `
+      <div class="lightbox-backdrop"></div>
+      <div class="lightbox-content">
+        <button class="lightbox-close" aria-label="Close">×</button>
+        <div class="lightbox-toolbar">
+          <button class="lightbox-zoom-in" type="button">＋</button>
+          <button class="lightbox-zoom-out" type="button">－</button>
+          <button class="lightbox-zoom-reset" type="button">100%</button>
         </div>
-      `;
-      document.body.appendChild(overlay);
-
-      overlay.querySelector('.lightbox-backdrop').addEventListener('click', function () {
-        overlay.classList.remove('open');
-      });
-
-      overlay.querySelector('.lightbox-close').addEventListener('click', function () {
-        overlay.classList.remove('open');
-      });
-
-      document.addEventListener('keydown', function (ev) {
-        if (ev.key === 'Escape') {
-          overlay.classList.remove('open');
-        }
-      });
-    }
-
-    overlay.querySelector('.lightbox-image').src = src;
-    overlay.querySelector('.lightbox-image').alt = alt;
-    overlay.querySelector('.lightbox-caption').textContent = alt;
-    overlay.classList.add('open');
+        <div class="lightbox-stage">
+          <img class="lightbox-image" src="" alt="">
+        </div>
+        <div class="lightbox-caption"></div>
+      </div>
+    `;
+    document.body.appendChild(overlay);
+    return overlay;
   }
+
+  const overlay = createLightbox();
+  const backdrop = overlay.querySelector('.lightbox-backdrop');
+  const closeBtn = overlay.querySelector('.lightbox-close');
+  const zoomInBtn = overlay.querySelector('.lightbox-zoom-in');
+  const zoomOutBtn = overlay.querySelector('.lightbox-zoom-out');
+  const resetBtn = overlay.querySelector('.lightbox-zoom-reset');
+  const img = overlay.querySelector('.lightbox-image');
+  const caption = overlay.querySelector('.lightbox-caption');
+  const stage = overlay.querySelector('.lightbox-stage');
+
+  let scale = 1;
+  let translateX = 0;
+  let translateY = 0;
+  let isDragging = false;
+  let startX = 0;
+  let startY = 0;
+
+  function updateTransform() {
+    img.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+  }
+
+  function resetZoom() {
+    scale = 1;
+    translateX = 0;
+    translateY = 0;
+    updateTransform();
+  }
+
+  function openLightbox(src, alt) {
+    img.src = src;
+    img.alt = alt;
+    caption.textContent = alt || '';
+    overlay.classList.add('open');
+    resetZoom();
+  }
+
+  function closeLightbox() {
+    overlay.classList.remove('open');
+    resetZoom();
+  }
+
+  function zoomIn() {
+    scale = Math.min(scale + 0.2, 5);
+    updateTransform();
+  }
+
+  function zoomOut() {
+    scale = Math.max(scale - 0.2, 0.4);
+    if (scale <= 1) {
+      translateX = 0;
+      translateY = 0;
+    }
+    updateTransform();
+  }
+
+  closeBtn.addEventListener('click', closeLightbox);
+  backdrop.addEventListener('click', closeLightbox);
+
+  document.addEventListener('keydown', function (ev) {
+    if (!overlay.classList.contains('open')) return;
+
+    if (ev.key === 'Escape') closeLightbox();
+    if (ev.key === '+') zoomIn();
+    if (ev.key === '=') zoomIn();
+    if (ev.key === '-') zoomOut();
+    if (ev.key === '0') resetZoom();
+  });
+
+  zoomInBtn.addEventListener('click', zoomIn);
+  zoomOutBtn.addEventListener('click', zoomOut);
+  resetBtn.addEventListener('click', resetZoom);
+
+  stage.addEventListener('wheel', function (e) {
+    if (!overlay.classList.contains('open')) return;
+    e.preventDefault();
+
+    if (e.deltaY < 0) {
+      scale = Math.min(scale + 0.15, 5);
+    } else {
+      scale = Math.max(scale - 0.15, 0.4);
+      if (scale <= 1) {
+        translateX = 0;
+        translateY = 0;
+      }
+    }
+    updateTransform();
+  }, { passive: false });
+
+  img.addEventListener('mousedown', function (e) {
+    if (scale <= 1) return;
+    isDragging = true;
+    startX = e.clientX - translateX;
+    startY = e.clientY - translateY;
+    img.style.cursor = 'grabbing';
+  });
+
+  document.addEventListener('mousemove', function (e) {
+    if (!isDragging) return;
+    translateX = e.clientX - startX;
+    translateY = e.clientY - startY;
+    updateTransform();
+  });
+
+  document.addEventListener('mouseup', function () {
+    isDragging = false;
+    img.style.cursor = scale > 1 ? 'grab' : 'zoom-in';
+  });
+
+  img.addEventListener('dblclick', function () {
+    if (scale === 1) {
+      scale = 2;
+    } else {
+      resetZoom();
+    }
+    img.style.cursor = scale > 1 ? 'grab' : 'zoom-in';
+    updateTransform();
+  });
 
   document.querySelectorAll('.single-diagram-image-link').forEach(function (link) {
     link.addEventListener('click', function (e) {
