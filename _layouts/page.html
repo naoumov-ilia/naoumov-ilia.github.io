@@ -58,91 +58,10 @@ document.addEventListener('DOMContentLoaded', function () {
     overlay.classList.add('open');
   }
 
-  document.querySelectorAll('.single-diagram-image-link, .diagram-image-link').forEach(function (link) {
+  document.querySelectorAll('.single-diagram-image-link').forEach(function (link) {
     link.addEventListener('click', function (e) {
-      const href = this.getAttribute('href');
-
-      if (!href || href.endsWith('/')) {
-        return;
-      }
-
       e.preventDefault();
-      const src = href;
-      const alt = this.getAttribute('data-title') || '';
-      openLightbox(src, alt);
-    });
-  });
-});
-</script>---
-layout: default
----
-<section class="section page-section">
-  <div class="container">
-    <div class="page-card">
-      <header class="page-header">
-        <h1>{{ page.title }}</h1>
-        {% if page.description %}
-          <p class="page-description">{{ page.description }}</p>
-        {% endif %}
-      </header>
-
-      <div class="page-content">
-        {{ content }}
-      </div>
-    </div>
-  </div>
-</section>
-
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  function openLightbox(src, alt) {
-    let overlay = document.getElementById('lightbox-overlay');
-
-    if (!overlay) {
-      overlay = document.createElement('div');
-      overlay.id = 'lightbox-overlay';
-      overlay.className = 'lightbox-overlay';
-      overlay.innerHTML = `
-        <div class="lightbox-backdrop"></div>
-        <div class="lightbox-content">
-          <button class="lightbox-close" aria-label="Close">×</button>
-          <img class="lightbox-image" src="" alt="">
-          <div class="lightbox-caption"></div>
-        </div>
-      `;
-      document.body.appendChild(overlay);
-
-      overlay.querySelector('.lightbox-backdrop').addEventListener('click', function () {
-        overlay.classList.remove('open');
-      });
-
-      overlay.querySelector('.lightbox-close').addEventListener('click', function () {
-        overlay.classList.remove('open');
-      });
-
-      document.addEventListener('keydown', function (ev) {
-        if (ev.key === 'Escape') {
-          overlay.classList.remove('open');
-        }
-      });
-    }
-
-    overlay.querySelector('.lightbox-image').src = src;
-    overlay.querySelector('.lightbox-image').alt = alt;
-    overlay.querySelector('.lightbox-caption').textContent = alt;
-    overlay.classList.add('open');
-  }
-
-  document.querySelectorAll('.single-diagram-image-link, .diagram-image-link').forEach(function (link) {
-    link.addEventListener('click', function (e) {
-      const href = this.getAttribute('href');
-
-      if (!href || href.endsWith('/')) {
-        return;
-      }
-
-      e.preventDefault();
-      const src = href;
+      const src = this.getAttribute('href');
       const alt = this.getAttribute('data-title') || '';
       openLightbox(src, alt);
     });
