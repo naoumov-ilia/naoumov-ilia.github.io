@@ -11,9 +11,93 @@ layout: default
         {% endif %}
       </header>
 
+      {% if page.ref == "diagrams" %}
+      <div class="diagram-tools">
+        <h2 class="diagram-tools-title">
+          {% if page.lang == 'en' %}List of charts{% else %}Список графиков{% endif %}
+        </h2>
+        <div id="diagram-index" class="diagram-index"></div>
+      </div>
+      {% endif %}
+
       <div class="page-content">
         {{ content }}
       </div>
     </div>
   </div>
 </section>
+
+{% if page.ref == "diagrams" %}
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const figures = document.querySelectorAll('.diagram-card');
+  const index = document.getElementById('diagram-index');
+
+  if (index && figures.length) {
+    const list = document.createElement('ol');
+    list.className = 'diagram-index-list';
+
+    figures.forEach((card, i) => {
+      const id = card.id || `graph-${i + 1}`;
+      card.id = id;
+
+      const titleEl = card.querySelector('.diagram-title');
+      const title = titleEl ? titleEl.textContent.trim() : `Graph ${i + 1}`;
+
+      const item = document.createElement('li');
+      const link = document.createElement('a');
+      link.href = `#${id}`;
+      link.textContent = title;
+      item.appendChild(link);
+      list.appendChild(item);
+    });
+
+    index.appendChild(list);
+  }
+
+  document.querySelectorAll('.diagram-image-link').forEach(link => {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      const src = this.getAttribute('href');
+      const alt = this.getAttribute('data-title') || '';
+      let overlay = document.getElementById('lightbox-overlay');
+
+      if (!overlay) {
+        overlay = document.createElement('div');
+        overlay.id = 'lightbox-overlay';
+        overlay.className = 'lightbox-overlay';
+        overlay.innerHTML = `
+          <div class="lightbox-backdrop"></div>
+          <div class="lightbox-content">
+            <button class="lightbox-close" aria-label="Close">×</button>
+            <img class="lightbox-image" src="" alt="">
+            <div class="lightbox-caption"></div>
+          </div>
+        `;
+        document.body.appendChild(overlay);
+
+        overlay.querySelector('.lightbox-backdrop').addEventListener('click', () => {
+          overlay.classList.remove('open');
+        });
+
+        overlay.querySelector('.lightbox-close').addEventListener('click', () => {
+          overlay.classList.remove('open');
+        });
+
+        document.addEventListener('keydown', function (ev) {
+          if (ev.key === 'Escape') {
+            overlay.classList.remove('open');
+          }
+        });
+      }
+
+      overlay.querySelector('.lightbox-image').src = src;
+      overlay.querySelector('.lightbox-image').alt = alt;
+      overlay.querySelector('.lightbox-caption').textContent = alt;
+      overlay.classList.add('open');
+    });
+  });
+});
+</script>
+{% endif %}
