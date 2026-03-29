@@ -21,15 +21,16 @@ permalink: /ru/diagrams/graph-1/
   >
 </a>
 
-<div class="single-diagram-caption">
+<p class="single-diagram-caption">
   <strong>Рис. 1.</strong> 15-минутный график цены акций Сбербанка. Бар o1: 03.03.2025, 12:30.
-</div>
+</p>
 
 <div class="single-diagram-source">
   <strong>Источник:</strong> QUIK, ММВБ
 </div>
 
 <div class="single-diagram-actions">
-  <a class="btn btn-secondary" href="{{ '/ru/diagrams/' | relative_url }}">← Назад к схемам</a>
+  <a class="btn btn-secondary" href="{{ '/ru/diagrams/' | relative_url }}">
+    ← Назад к схемам
+  </a>
 </div>
-
