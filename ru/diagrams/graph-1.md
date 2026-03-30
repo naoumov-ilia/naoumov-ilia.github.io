@@ -5,7 +5,7 @@ lang: ru
 ref: graph-1
 description: 
 permalink: /ru/diagrams/graph-1/
----
+--
 
 ## 15-minute Sberbank stock price bar chart, bar о1: 03.03.2025, 12:30.
 
