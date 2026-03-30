@@ -1,18 +1,18 @@
 ---
 layout: page
-title: Figure 1
+title: Figure 2
 lang: ru
-ref: graph-1
-description: 15-minute chart.
-permalink: /ru/diagrams/graph-1/
+ref: graph-2
+description: 
+permalink: /ru/diagrams/graph-2/
 ---
 
-## 15-minute Sberbank stock price bar chart, bar  о1: 03.03.2025, 12:30  
+## 2-minute Sberbank stock price bar chart, bar  о1: 18.12.2025, 14:40    
 
-<a class="single-diagram-image-link" href="{{ '/assets/images/graph-1.png' | relative_url }}" data-title="Figure 1"><img class="single-diagram-image" src="{{ '/assets/images/graph-1.png' | relative_url }}" alt="Wave Motion"></a>
+<a class="single-diagram-image-link" href="{{ '/assets/images/graph-2.png' | relative_url }}" data-title="Figure 2"><img class="single-diagram-image" src="{{ '/assets/images/graph-2.png' | relative_url }}" alt=></a>
 
 <p class="single-diagram-caption">
-  <strong>Figure 1.</strong> 15-minute chart.
+  <strong>Figure 2.</strong>
 </p>
 
 <div class="single-diagram-source">
