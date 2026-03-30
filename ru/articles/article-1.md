@@ -17,8 +17,8 @@ permalink: /ru/articles/article-1/
 
  Волновое движение.
 
-   Рассмотрим график зависимости цены от времени (здесь и далее дискретные  графики на которых цена представлена в барах).  Волновое движение 
-   <a href="{{ '/ru/diagrams/graph-1/' | relative_url }}"
+   Рассмотрим график зависимости цены от времени (здесь и далее дискретные  графики на которых цена представлена в барах). Волновое движение:
+<a href="{{ '/ru/diagrams/graph-1/' | relative_url }}"
    target="_blank"
    rel="noopener"
    onclick="window.open(this.href, '_blank', 'noopener'); return false;">
