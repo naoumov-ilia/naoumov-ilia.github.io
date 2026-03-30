@@ -1,7 +1,6 @@
 ---
 layout: article
-title: Mathematical Foundations of Wave Analysis
-of  Charts of Exchange Trading in Stocks and Currency Markets
+title: Mathematical Foundations of Wave Analysis of  Charts of Exchange Trading in Stocks and Currency Markets
 
 lang: en
 description: 
