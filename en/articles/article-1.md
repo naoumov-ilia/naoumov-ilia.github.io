@@ -1,6 +1,8 @@
 ---
 layout: article
-title: Wave motion
+title: Mathematical Foundations of Wave Analysis
+of  Charts of Exchange Trading in Stocks and Currency Markets
+
 lang: en
 description: 
 permalink: /en/articles/article-1/
