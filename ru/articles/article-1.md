@@ -189,7 +189,8 @@ permalink: /ru/articles/article-1/
 Список литературы:
 
 John J. Murphy. Technical analysis of the future markets.  New York Institute of Finance, 1986 
-R.Prechter.  R.N.Elliot’s Masterworks. Published by New Classics Library, 1996,ISBN: 0-932750-37-0
+R.Prechter.  R.N.Elliot’s Masterworks. Published by New Classics Library, 1996.
+
 
 
 
