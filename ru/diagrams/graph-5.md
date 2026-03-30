@@ -2,12 +2,12 @@
 layout: page
 title: Figure 5
 lang: ru
-ref: graph-35
+ref: graph-5
 description: 
 permalink: /ru/diagrams/graph-5/
 ---
 
-## 2-minute Sberbank stock price bar chart, bar о1: 30.04.2024, 11:30      
+## 15-minute  Norilsk Nickel stock price bar chart, bar  о1: 26.11.2024, 21:30      
 
 <a class="single-diagram-image-link" href="{{ '/assets/images/graph-5.png' | relative_url }}" 
   data-title="Figure 5"><img class="single-diagram-image" src="{{ '/assets/images/graph-5.png' | relative_url }}" alt="Wave Motion"></a>
