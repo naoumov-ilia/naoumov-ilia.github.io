@@ -3,7 +3,7 @@ layout: default
 title: Home
 lang: en
 ref: ""
-description: Research website with publications, diagrams, infographics, and PDF materials.
+description:
 permalink: /en/
 ---
 
@@ -11,7 +11,9 @@ permalink: /en/
   <div class="container hero-grid">
     <div class="hero-card">
       <div class="hero-eyebrow">Research Project</div>
-      <h1>A modern website for articles, ideas, and visual research materials</h1>
+      <h1>Mathematical Foundations of Wave Analysis
+of  Charts of Exchange Trading in Stocks and Currency Markets
+</h1>
       <p>
         The site can host articles, diagrams, infographics, PDF materials, and idea discussion.
         It is built as a clear bilingual structure and is ready for further expansion.
