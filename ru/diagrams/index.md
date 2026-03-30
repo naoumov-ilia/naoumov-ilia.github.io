@@ -11,7 +11,7 @@ permalink: /ru/diagrams/
 
   <article class="diagram-thumb-card">
     <a class="diagram-thumb-link no-lightbox" href="{{ '/ru/diagrams/graph-1/' | relative_url }}" target="_blank" rel="noopener">
-      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-1.png' | relative_url }}" alt="График 1 — Волновое движение">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-1.png' | relative_url }}" alt=" Figure 1">
     </a>
     <h3 class="diagram-thumb-title">
       <a href="{{ '/ru/diagrams/graph-1/' | relative_url }}" target="_blank" rel="noopener">
