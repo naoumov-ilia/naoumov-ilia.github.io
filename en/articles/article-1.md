@@ -24,7 +24,12 @@ On any chart, one can always identify wave movements whose result, depending on 
 – From the moment the correction begins until its end, the price value at the point of inception remains the maximum;
 – From the moment the correction ends, the price does not fall below the value at the point of termination;
 – The duration of the correction cannot exceed the duration of the preceding impulse wave.
-In the general case, the correction onset v1 is not the point of maximum price value within the impulse wave (Fig. 2).
+In the general case, the correction onset v1 is not the point of maximum price value within the impulse wave (Fig. 2).<a href="{{ '/ru/diagrams/graph-2/' | relative_url }}"
+   target="_blank"
+   rel="noopener"
+   onclick="window.open(this.href, '_blank', 'noopener'); return false;">
+  (Fig. 2)
+</a> 
 This assertion holds whenever the maximum is located before time t = t(o1) + T1/2 (which is unsurprising, since the wave movement is the result of a superposition of shorter wave movements).
 A single correction onset point, generally speaking, corresponds to a set of termination points {f1}, which includes all values—including those within a bar—after each of which the price does not fall to the given level (Fig. 2).
 ## Secondary Wave Movement
