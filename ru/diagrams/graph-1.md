@@ -9,7 +9,7 @@ permalink: /ru/diagrams/graph-1/
 
 ## 
 
-<a class="single-diagram-image-link" href="{{ '/assets/images/graph-1.png' | relative_url }}" data-title=" Figure 1 ">
+<a class="single-diagram-image-link" href="{{ '/assets/images/graph-1.png' | relative_url }}" data-title=" Рис. 1 ">
   <img class="single-diagram-image" src="{{ '/assets/images/graph-1.png' | relative_url }}" alt="Волновое движение">
 </a>
 
