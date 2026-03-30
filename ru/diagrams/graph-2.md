@@ -13,7 +13,7 @@ permalink: /ru/diagrams/graph-2/
   data-title="Figure 2"><img class="single-diagram-image" src="{{ '/assets/images/graph-2.png' | relative_url }}" alt="Wave Motion"></a>
 
 <p class="single-diagram-caption">
-  <strong>Figure 2.</strong>
+  <strong>.</strong>
 </p>
 
 <div class="single-diagram-source">
