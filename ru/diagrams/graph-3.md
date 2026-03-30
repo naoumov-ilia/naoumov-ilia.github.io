@@ -1,20 +1,27 @@
 ---
 layout: page
-title: График 3
+title: Figure 1.  
 lang: ru
-ref: graph-3
-permalink: /ru/diagrams/graph-3/
+ref: graph-1
+description: 
+permalink: /ru/diagrams/graph-1/
 ---
 
+## 15-minute Sberbank stock price bar chart, bar о1: 03.03.2025, 12:30.
 
-<img src="/assets/images/graph-3.png" alt="График 3">
+<a class="single-diagram-image-link" href="{{ '/assets/images/graph-1.png' | relative_url }}" data-title="  Figure 1. 15-minute Sberbank stock price bar chart, bar о1: 03.03.2025, 12:30.">
+  <img class="single-diagram-image" src="{{ '/assets/images/graph-1.png' | relative_url }}" alt=Figure 1>
+</a>
 
-2 минутный график цены акций Сбербанка, 
-бар  о1: 30.04.2024, 11:30  
+<p class="single-diagram-caption">
+  <strong> </strong> 
+</p>
 
+<div class="single-diagram-source">
+  <strong>Source:</strong> QUIK information system, MICEX
 
-Источник: QUIK, ММВБ
+</div>
 
----
-
-<a class="btn btn-secondary" href="/ru/diagrams/">← Назад к схемам</a>
+<div class="single-diagram-actions">
+  <a class="btn btn-secondary" href="{{ '/ru/diagrams/' | relative_url }}">← Назад к схемам</a>
+</div>
