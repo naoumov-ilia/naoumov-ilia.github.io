@@ -1,20 +1,27 @@
 ---
 layout: page
-title: График 2 — Множество окончаний коррекции
+title: Figure 2.  
 lang: ru
 ref: graph-2
+description: 
 permalink: /ru/diagrams/graph-2/
 ---
 
-## Множество окончаний коррекции
+## 2-minute Sberbank stock price bar chart, bar  о1: 18.12.2025, 14:40  
 
-<img src="/assets/images/graph-2.png" alt="График 2">
+<a class="single-diagram-image-link" href="{{ '/assets/images/graph-2.png' | relative_url }}" data-title="  Figure 2. 2-minute Sberbank stock price bar chart, bar  о1: 18.12.2025, 14:40  
+  <img class="single-diagram-image" src="{{ '/assets/images/graph-2.png' | relative_url }}" alt=Figure 2>
+</a>
 
-2 минутный график цены акций Сбербанка  
-бар o1: 18.12.2025, 14:40  
+<p class="single-diagram-caption">
+  <strong> </strong> 
+</p>
 
-Источник: QUIK, ММВБ
+<div class="single-diagram-source">
+  <strong>Source:</strong> QUIK information system, MICEX
 
----
+</div>
 
-<a class="btn btn-secondary" href="/ru/diagrams/">← Назад к схемам</a>
+<div class="single-diagram-actions">
+  <a class="btn btn-secondary" href="{{ '/ru/diagrams/' | relative_url }}">← Назад к схемам</a>
+</div>
