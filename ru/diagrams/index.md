@@ -3,7 +3,7 @@ layout: page
 title: Схемы
 lang: ru
 ref: diagrams
-description: Графики и схемы.
+description:
 permalink: /ru/diagrams/
 ---
 
@@ -15,7 +15,7 @@ permalink: /ru/diagrams/
     </a>
     <h3 class="diagram-thumb-title">
       <a href="{{ '/ru/diagrams/graph-1/' | relative_url }}" target="_blank" rel="noopener">
-        График 1 — Волновое движение
+        Figure 1
       </a>
     </h3>
   </article>
@@ -26,7 +26,7 @@ permalink: /ru/diagrams/
     </a>
     <h3 class="diagram-thumb-title">
       <a href="{{ '/ru/diagrams/graph-2/' | relative_url }}" target="_blank" rel="noopener">
-        График 2
+        Figure 2
       </a>
     </h3>
   </article>
@@ -37,7 +37,7 @@ permalink: /ru/diagrams/
     </a>
     <h3 class="diagram-thumb-title">
       <a href="{{ '/ru/diagrams/graph-3/' | relative_url }}" target="_blank" rel="noopener">
-        График 3
+        Figure 3
       </a>
     </h3>
   </article>
