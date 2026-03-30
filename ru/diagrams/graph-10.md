@@ -1,20 +1,27 @@
 ---
 layout: page
-title: График 10 — 60 минутный график акций Сбербанка, бар о1 22.09.2023  10:00
+title: Figure 10
 lang: ru
 ref: graph-10
+description: 
 permalink: /ru/diagrams/graph-10/
 ---
 
-## 60 минутный график акций Сбербанка, бар о1 22.09.2023  10:00
+## 60-minute Sberbank stock price bar chart, bar  о1 22.09.2023  10:00      
 
-<img src="/assets/images/graph-10.png" alt="График 10">
+<a class="single-diagram-image-link" href="{{ '/assets/images/graph-10.png' | relative_url }}" 
+  data-title="Figure 10"><img class="single-diagram-image" src="{{ '/assets/images/graph-10.png' | relative_url }}" alt="Wave Motion"></a>
 
+<p class="single-diagram-caption">
+  <strong></strong>
+</p>
 
+<div class="single-diagram-source">
+  <strong>Source:</strong> QUIK information system, MICEX
+</div>
 
-Источник: информационная система QUIK,  ММВБ
-
----
-
-<a class="btn btn-secondary" href="/ru/diagrams/">← Назад к схемам</a>
-
+<div class="single-diagram-actions">
+  <a class="btn btn-secondary" href="{{ '/ru/diagrams/' | relative_url }}">
+    ← Back to diagrams
+  </a>
+</div>
