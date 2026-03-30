@@ -1,13 +1,13 @@
 ---
 layout: page
-title: График 1 — Волновое движение
+title: figure 1.  
 lang: ru
 ref: graph-1
-description: 15-минутный график цены акций Сбербанка.
+description: 15-minute Sberbank stock price bar chart, bar  о1: 03.03.2025, 12:30 
 permalink: /ru/diagrams/graph-1/
 ---
 
-## Волновое движение
+## 
 
 <a class="single-diagram-image-link" href="{{ '/assets/images/graph-1.png' | relative_url }}" data-title="График 1 — Волновое движение">
   <img class="single-diagram-image" src="{{ '/assets/images/graph-1.png' | relative_url }}" alt="Волновое движение">
