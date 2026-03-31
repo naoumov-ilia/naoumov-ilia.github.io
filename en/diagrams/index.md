@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Схемы
+title: Diagrams
 lang: ru
 ref: diagrams
 description:
