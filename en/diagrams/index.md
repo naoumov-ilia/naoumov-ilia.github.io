@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Schemes
+title: Diagrams
 lang: en
 ref: diagrams
 description:
