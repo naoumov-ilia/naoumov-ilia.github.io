@@ -20,7 +20,6 @@
       <nav class="site-nav">
         {% if current_lang == 'en' %}
           <a href="{{ '/en/' | relative_url }}">Home</a>
-          <a href="{{ '/en/about/' | relative_url }}">About</a>
           <a href="{{ '/en/publications/' | relative_url }}">Publications</a>
           <a href="{{ '/en/diagrams/' | relative_url }}">Diagrams</a>
           <a href="{{ '/en/faq/' | relative_url }}">FAQ</a>
@@ -33,7 +32,6 @@
           {% endif %}
         {% else %}
           <a href="{{ '/ru/' | relative_url }}">Главная</a>
-          <a href="{{ '/ru/about/' | relative_url }}">О проекте</a>
           <a href="{{ '/ru/publications/' | relative_url }}">Публикации</a>
           <a href="{{ '/ru/diagrams/' | relative_url }}">Схемы</a>
           <a href="{{ '/ru/faq/' | relative_url }}">FAQ</a>
