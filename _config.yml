@@ -1,7 +1,24 @@
 title: Research Project
 description: Bilingual research website on GitHub Pages
+url: "https://naoumov-ilia.github.io"
+baseurl: ""
+
 lang: ru
+
 markdown: kramdown
 theme: null
-plugins: []
 
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+      
+exclude:
+  - README.md
+  - LICENSE
