@@ -1,57 +1,144 @@
 ---
-layout: default
-title: Home
+layout: page
+title: Schemes
 lang: en
-ref: ""
+ref: diagrams
 description:
-permalink: /en/
+permalink: /ru/diagrams/
 ---
 
-<section class="hero">
-  <div class="container hero-grid">
-    <div class="hero-card">
-      <div class="hero-eyebrow">Research Project</div>
-      <h1>Mathematical Foundations of Wave Analysis
-of  Charts of Exchange Trading in Stocks and Currency Markets
-</h1>
-      <p>
-        The site can host articles, diagrams, infographics, PDF materials, and idea discussion.
-        It is built as a clear bilingual structure and is ready for further expansion.
-      </p>
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="{{ '/en/publications/' | relative_url }}">Publications</a>
-        <a class="btn btn-secondary" href="{{ '/en/contact/' | relative_url }}">Contact</a>
-      </div>
-    </div>
+<div class="diagram-grid">
 
-    <aside class="info-card">
-      <h3>Website features</h3>
-      <ul class="info-list">
-        <li>Two language sections: Russian and English</li>
-        <li>Publications, diagrams, FAQ, and contact pages</li>
-        <li>Support for images, PDF files, and extra materials</li>
-        <li>Ready structure for future article expansion</li>
-      </ul>
-    </aside>
-  </div>
-</section>
+  <article class="diagram-thumb-card">
+    <a class="diagram-thumb-link no-lightbox" href="{{ '/ru/diagrams/graph-1/' | relative_url }}" target="_blank" rel="noopener">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-1.png' | relative_url }}" alt=" Figure 1">
+    </a>
+    <h3 class="diagram-thumb-title">
+      <a href="{{ '/ru/diagrams/graph-1/' | relative_url }}" target="_blank" rel="noopener">
+        Figure 1
+      </a>
+    </h3>
+  </article>
 
-<section class="section">
-  <div class="container">
-    <h2 class="section-title">Sections</h2>
-    <div class="features-grid">
-      <div class="feature-card">
-        <h3>About</h3>
-        <p>Project background, research goals, and the general concept of the website.</p>
-      </div>
-      <div class="feature-card">
-        <h3>Publications</h3>
-        <p>Articles, PDF documents, written materials, and research publications.</p>
-      </div>
-      <div class="feature-card">
-        <h3>Diagrams & FAQ</h3>
-        <p>Visual explanatory materials and answers to common questions.</p>
-      </div>
-    </div>
-  </div>
-</section>
+  <article class="diagram-thumb-card">
+    <a class="diagram-thumb-link no-lightbox" href="{{ '/ru/diagrams/graph-2/' | relative_url }}" target="_blank" rel="noopener">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-2.png' | relative_url }}" alt="Figure 2">
+    </a>
+    <h3 class="diagram-thumb-title">
+      <a href="{{ '/ru/diagrams/graph-2/' | relative_url }}" target="_blank" rel="noopener">
+        Figure 2
+      </a>
+    </h3>
+  </article>
+
+  <article class="diagram-thumb-card">
+    <a class="diagram-thumb-link no-lightbox" href="{{ '/ru/diagrams/graph-3/' | relative_url }}" target="_blank" rel="noopener">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-3.png' | relative_url }}" alt="Figure 3">
+    </a>
+    <h3 class="diagram-thumb-title">
+      <a href="{{ '/ru/diagrams/graph-3/' | relative_url }}" target="_blank" rel="noopener">
+        Figure 3
+      </a>
+    </h3>
+  </article>
+
+  <article class="diagram-thumb-card">
+    <a class="diagram-thumb-link no-lightbox" href="{{ '/ru/diagrams/graph-4/' | relative_url }}" target="_blank" rel="noopener">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-4.png' | relative_url }}" alt="График 4">
+    </a>
+    <h3 class="diagram-thumb-title">
+      <a href="{{ '/ru/diagrams/graph-4/' | relative_url }}" target="_blank" rel="noopener">
+        Figure 4
+      </a>
+    </h3>
+  </article>
+
+  <article class="diagram-thumb-card">
+    <a class="diagram-thumb-link no-lightbox" href="{{ '/ru/diagrams/graph-5/' | relative_url }}" target="_blank" rel="noopener">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-5.png' | relative_url }}" alt="Figure 5">
+    </a>
+    <h3 class="diagram-thumb-title">
+      <a href="{{ '/ru/diagrams/graph-5/' | relative_url }}" target="_blank" rel="noopener">
+        Figure 5
+      </a>
+    </h3>
+  </article>
+
+  <article class="diagram-thumb-card">
+    <a class="diagram-thumb-link no-lightbox" href="{{ '/ru/diagrams/graph-6/' | relative_url }}" target="_blank" rel="noopener">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-6.png' | relative_url }}" alt="Figure 6">
+    </a>
+    <h3 class="diagram-thumb-title">
+      <a href="{{ '/ru/diagrams/graph-6/' | relative_url }}" target="_blank" rel="noopener">
+        Figure 6
+      </a>
+    </h3>
+  </article>
+
+  <article class="diagram-thumb-card">
+    <a class="diagram-thumb-link no-lightbox" href="{{ '/ru/diagrams/graph-7/' | relative_url }}" target="_blank" rel="noopener">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-7.png' | relative_url }}" alt="Figure 7">
+    </a>
+    <h3 class="diagram-thumb-title">
+      <a href="{{ '/ru/diagrams/graph-7/' | relative_url }}" target="_blank" rel="noopener">
+        Figure 7
+      </a>
+    </h3>
+  </article>
+
+  <article class="diagram-thumb-card">
+    <a class="diagram-thumb-link no-lightbox" href="{{ '/ru/diagrams/graph-8/' | relative_url }}" target="_blank" rel="noopener">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-8.png' | relative_url }}" alt="Figure 8">
+    </a>
+    <h3 class="diagram-thumb-title">
+      <a href="{{ '/ru/diagrams/graph-8/' | relative_url }}" target="_blank" rel="noopener">
+        Figure 8
+      </a>
+    </h3>
+  </article>
+
+  <article class="diagram-thumb-card">
+    <a class="diagram-thumb-link no-lightbox" href="{{ '/ru/diagrams/graph-9/' | relative_url }}" target="_blank" rel="noopener">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-9.png' | relative_url }}" alt="Figure 9">
+    </a>
+    <h3 class="diagram-thumb-title">
+      <a href="{{ '/ru/diagrams/graph-9/' | relative_url }}" target="_blank" rel="noopener">
+        Figure 9
+      </a>
+    </h3>
+  </article>
+
+  <article class="diagram-thumb-card">
+    <a class="diagram-thumb-link no-lightbox" href="{{ '/ru/diagrams/graph-10/' | relative_url }}" target="_blank" rel="noopener">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-10.png' | relative_url }}" alt="Figure 10">
+    </a>
+    <h3 class="diagram-thumb-title">
+      <a href="{{ '/ru/diagrams/graph-10/' | relative_url }}" target="_blank" rel="noopener">
+        Figure 10
+      </a>
+    </h3>
+  </article>
+
+  <article class="diagram-thumb-card">
+    <a class="diagram-thumb-link no-lightbox" href="{{ '/ru/diagrams/graph-11/' | relative_url }}" target="_blank" rel="noopener">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-11.png' | relative_url }}" alt="Figure 11">
+    </a>
+    <h3 class="diagram-thumb-title">
+      <a href="{{ '/ru/diagrams/graph-11/' | relative_url }}" target="_blank" rel="noopener">
+        Figure 11
+      </a>
+    </h3>
+  </article>
+
+  <article class="diagram-thumb-card">
+    <a class="diagram-thumb-link no-lightbox" href="{{ '/ru/diagrams/graph-12/' | relative_url }}" target="_blank" rel="noopener">
+      <img class="diagram-thumb-image" src="{{ '/assets/images/graph-12.png' | relative_url }}" alt="Figure 12">
+    </a>
+    <h3 class="diagram-thumb-title">
+      <a href="{{ '/ru/diagrams/graph-12/' | relative_url }}" target="_blank" rel="noopener">
+        Figure 12
+      </a>
+    </h3>
+  </article>
+
+</div>
