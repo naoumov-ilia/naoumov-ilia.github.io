@@ -10,7 +10,4 @@ permalink: /ru/contact/
 Для связи по вопросам проекта :
 
 
-
-**GitHub:** [github.com
-naoumov-ilia](https://github.com/
-naoumov-ilia)
+**Email:** mathfounds@gmail.com
