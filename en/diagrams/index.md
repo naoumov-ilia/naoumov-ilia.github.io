@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Diagrams
-lang: ru
+lang: en
 ref: diagrams
 description:
 permalink: /ru/diagrams/
