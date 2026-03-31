@@ -9,5 +9,5 @@ permalink: /ru/contact/
 
 Для связи по вопросам проекта :
 
-
+**Telegram:** @IliaYNow 
 **Email:** mathfounds@gmail.com
