@@ -10,7 +10,7 @@ permalink: /en/contact/
 For project-related contact, you can provide:
 
 
-
+**Telegram:** @IliaYNow 
 **Email:** mathfounds@gmail.com
 
 
