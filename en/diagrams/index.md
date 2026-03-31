@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Схемы
-lang: ru
+title: Schemes
+lang: en
 ref: diagrams
 description:
-permalink: /ru/diagrams/
+permalink: /en/diagrams/
 ---
 
 <div class="diagram-grid">
