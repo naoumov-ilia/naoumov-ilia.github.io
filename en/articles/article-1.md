@@ -94,7 +94,7 @@ Consider K2 at time t*, where v2(t*) is the correction onset of the wave movemen
 the fulfillment of any one of which at any moment t(f1) < t < t(f1) + T1 entails the impossibility of constructing the K1 channel and, consequently, the impossibility of K2 continuation:
 – The line originating at f1, parallel to the current supply line, is crossed by the chart before the correction of the impulse wave (f1 : v2(t*)) is complete;
 – The line originating at v1, parallel to the demand line, is crossed by the chart, except in the case of extension;
--The duration of the primary wave movement starting at f1 exceeds half the duration of (o1:f1), T21>T1/2, provided that the maximum price value T21 at t>=t(f1)+T1/2 was less than v1.
+-The duration of the primary wave movement starting at f1 exceeds half the duration of (o1:f1), T21 > T1/2, provided that the maximum price value at K21 on the interval    t ≥ t(f1) + T1/2 does not exceed the price value at point v1.
 Simultaneously, the converse assertion holds: the necessary condition for constructing the K1 channel, or the continuation of K2, is the absence of sufficient conditions for the impossibility of its construction.
 ## Correction Onset Points
 The definition of the correction onset point v1 of the wave movement (o1 : f1) given above must be supplemented to account for the fact that the correction (v1 : f1) may itself consist of two sequential wave movements K1corr and K2corr satisfying the channel construction condition.
