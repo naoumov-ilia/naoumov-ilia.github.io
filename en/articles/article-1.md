@@ -94,7 +94,7 @@ Consider K2 at time t*, where v2(t*) is the correction onset of the wave movemen
 the fulfillment of any one of which at any moment t(f1) < t < t(f1) + T1 entails the impossibility of constructing the K1 channel and, consequently, the impossibility of K2 continuation:
 – The line originating at f1, parallel to the current supply line, is crossed by the chart before the correction of the impulse wave (f1 : v2(t*)) is complete;
 – The line originating at v1, parallel to the demand line, is crossed by the chart, except in the case of extension;
-– The duration of the primary wave movement beginning at f1 exceeds half the duration of (o1 : f1): T21 > T1/2.
+-The duration of the primary wave movement starting at f1 exceeds half the duration of (o1:f1), T21>T1/2, provided that the maximum price value T21 at t>=t(f1)+T1/2 was less than v1.
 Simultaneously, the converse assertion holds: the necessary condition for constructing the K1 channel, or the continuation of K2, is the absence of sufficient conditions for the impossibility of its construction.
 ## Correction Onset Points
 The definition of the correction onset point v1 of the wave movement (o1 : f1) given above must be supplemented to account for the fact that the correction (v1 : f1) may itself consist of two sequential wave movements K1corr and K2corr satisfying the channel construction condition.
@@ -129,7 +129,7 @@ In the alternative case, the correction onset v1 lies to the right of the maximu
    rel="noopener"
    onclick="window.open(this.href, '_blank', 'noopener'); return false;">
   (Fig.7)
-</a>  corresponds to the maximum correction duration of the impulse wave (o1 : v1) and thus to the maximum duration T1 = t(f1) – t(o1). Point f21 corresponds to K21 of maximum duration, which cannot exceed T1/2. A subsequent price decline below the value at f21 signifies the impossibility of K21 channel construction. Consequently, the sufficient condition for the impossibility of K1 channel construction is fulfilled. The wave movement whose channel can be constructed is K1′ with impulse wave (o1 : v1′). T1′corr is the maximum duration of the K1′corr correction channel.
+</a>  corresponds to the maximum correction duration of the impulse wave (o1 : v1) and thus to the maximum duration T1 = t(f1) – t(o1). Point f21 corresponds to the maximum duration of K21, which cannot exceed T1/2. A subsequent price drop below f21 means that the K21 channel cannot be constructed. The wave movement, the channel for which can be constructed, is the K1' impulse wave (o1:v1'). T1′corr is the maximum duration of the K1′corr correction channel.
 4. The reverse crossing of the extension line (the lower line) in <a href="{{ '/ru/diagrams/graph-8/' | relative_url }}"
    target="_blank"
    rel="noopener"
