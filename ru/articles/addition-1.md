@@ -1,6 +1,6 @@
 ---
 layout: addition
-title: -
+title: Дополнение
 lang: ru
 description:
 permalink: /ru/articles/addition-1/
