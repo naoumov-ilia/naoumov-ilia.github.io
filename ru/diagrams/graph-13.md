@@ -7,7 +7,6 @@ description:
 permalink: /ru/diagrams/graph-13/
 ---
 
-## 15-minute Sberbank stock price bar chart, bar о1: 03.03.2025, 12:30  
 
 <a class="single-diagram-image-link" href="{{ '/assets/images/graph-13.png' | relative_url }}"
   data-title="Figure 13"><img class="single-diagram-image" src="{{ '/assets/images/graph-13.png' | relative_url }}" alt=""></a>
