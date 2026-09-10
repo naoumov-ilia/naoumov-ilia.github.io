@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: addition
 title: Дополнение
 lang: ru
 description:
