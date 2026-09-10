@@ -19,4 +19,10 @@ permalink: /en/publications/
     <p></p>
     <a href="{{ '/en/articles/article-2/' | relative_url }}">Open →</a>
   </div>
+
+  <div class="list-card">
+    <h3><a href="{{ '/en/articles/addition-1/' | relative_url }}">Addition</a></h3>
+    <p></p>
+    <a href="{{ '/en/articles/addition-1/' | relative_url }}">Open →</a>
+  </div>
 </div>
